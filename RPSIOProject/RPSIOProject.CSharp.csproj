@@ -61,14 +61,14 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="GETween">
       <HintPath>Assets\GUI Animator\Common\Plugins\GETween.dll</HintPath>
     </Reference>
     <Reference Include="GUIAnimator">
       <HintPath>Assets\GUI Animator\GUI Animator for Unity UI\Plugins\GUIAnimator.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -1018,7 +1018,11 @@
     <Compile Include="Assets\RFNETService\SyncHandler.cs" />
     <Compile Include="Assets\RFNETService\SyncObject.cs" />
     <Compile Include="Assets\RPSIO\Script\CameraControl.cs" />
+    <Compile Include="Assets\RPSIO\Script\Dto\PlayerInitDto.cs" />
+    <Compile Include="Assets\RPSIO\Script\Dto\Pos.cs" />
+    <Compile Include="Assets\RPSIO\Script\Dto\TagF.cs" />
     <Compile Include="Assets\RPSIO\Script\GameManager.cs" />
+    <Compile Include="Assets\RPSIO\Script\LocalPlayer.cs" />
     <Compile Include="Assets\RPSIO\Script\Player.cs" />
     <Compile Include="Assets\RPSIO\Script\StandaloneInput.cs" />
     <Compile Include="Assets\RPSIO\Script\Tool\BuffAndConnect.cs" />
