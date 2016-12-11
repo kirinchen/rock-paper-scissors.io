@@ -1026,6 +1026,7 @@
     <Compile Include="Assets\RPSIO\Script\CameraControl.cs" />
     <Compile Include="Assets\RPSIO\Script\Dto\ItemInitDto.cs" />
     <Compile Include="Assets\RPSIO\Script\Dto\MoveDto.cs" />
+    <Compile Include="Assets\RPSIO\Script\Dto\PlayerDestoryDto.cs" />
     <Compile Include="Assets\RPSIO\Script\Dto\PlayerInitDto.cs" />
     <Compile Include="Assets\RPSIO\Script\Dto\Pos.cs" />
     <Compile Include="Assets\RPSIO\Script\Dto\TagF.cs" />
