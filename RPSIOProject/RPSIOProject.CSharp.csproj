@@ -983,6 +983,7 @@
     <Compile Include="Assets\GUI Animator\GUI Animator for Unity UI\Demo Basic (CSharp)\Scripts\GA_UUI_DemoBasicControlledByScriptsShowRotateLoop.cs" />
     <Compile Include="Assets\GUI Animator\GUI Animator for Unity UI\Scripts\GAui.cs" />
     <Compile Include="Assets\GUI Animator\GUI Animator for Unity UI\Scripts\GSui.cs" />
+    <Compile Include="Assets\RFNETService\AbsSyncHandler.cs" />
     <Compile Include="Assets\RFNETService\BackgroubdChecker.cs" />
     <Compile Include="Assets\RFNETService\CommRemoteObject.cs" />
     <Compile Include="Assets\RFNETService\CommRemoteRepo.cs" />
@@ -991,6 +992,7 @@
     <Compile Include="Assets\RFNETService\Dto\InboxMissData.cs" />
     <Compile Include="Assets\RFNETService\Dto\InboxTellObjectData.cs" />
     <Compile Include="Assets\RFNETService\Dto\NtpDto.cs" />
+    <Compile Include="Assets\RFNETService\Dto\PingResult.cs" />
     <Compile Include="Assets\RFNETService\Dto\RemoteBroadcastData.cs" />
     <Compile Include="Assets\RFNETService\Dto\RemoteData.cs" />
     <Compile Include="Assets\RFNETService\Dto\RoomInfo.cs" />
@@ -1007,6 +1009,7 @@
     <Compile Include="Assets\RFNETService\RemoteApierHandler.cs" />
     <Compile Include="Assets\RFNETService\RemoteObject.cs" />
     <Compile Include="Assets\RFNETService\RemotePlayerRepo.cs" />
+    <Compile Include="Assets\RFNETService\Rest\PingBundle.cs" />
     <Compile Include="Assets\RFNETService\Rest\RoomService.cs" />
     <Compile Include="Assets\RFNETService\Rest\URestApi.cs" />
     <Compile Include="Assets\RFNETService\StompClient\StompClient.cs" />
@@ -1018,17 +1021,20 @@
     <Compile Include="Assets\RFNETService\SyncHandler.cs" />
     <Compile Include="Assets\RFNETService\SyncObject.cs" />
     <Compile Include="Assets\RPSIO\Script\CameraControl.cs" />
+    <Compile Include="Assets\RPSIO\Script\Dto\MoveDto.cs" />
     <Compile Include="Assets\RPSIO\Script\Dto\PlayerInitDto.cs" />
     <Compile Include="Assets\RPSIO\Script\Dto\Pos.cs" />
     <Compile Include="Assets\RPSIO\Script\Dto\TagF.cs" />
     <Compile Include="Assets\RPSIO\Script\GameManager.cs" />
     <Compile Include="Assets\RPSIO\Script\LocalPlayer.cs" />
     <Compile Include="Assets\RPSIO\Script\Player.cs" />
+    <Compile Include="Assets\RPSIO\Script\RemoteObjectCreater.cs" />
+    <Compile Include="Assets\RPSIO\Script\RemotePlayer.cs" />
     <Compile Include="Assets\RPSIO\Script\StandaloneInput.cs" />
+    <Compile Include="Assets\RPSIO\Script\StartDialog.cs" />
     <Compile Include="Assets\RPSIO\Script\Tool\BuffAndConnect.cs" />
     <Compile Include="Assets\RPSIO\Script\Tool\Constant.cs" />
-    <Compile Include="Assets\RPSIO\Script\Tool\PingBundle.cs" />
-    <Compile Include="Assets\RPSIO\Script\Tool\PingResult.cs" />
+    <Compile Include="Assets\RPSIO\Script\Tool\GlobalMethod.cs" />
     <Compile Include="Assets\RPSIO\Script\Tool\RFServerStorer.cs" />
   </ItemGroup>
   <ItemGroup>
